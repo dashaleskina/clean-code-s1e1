@@ -27,6 +27,12 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.main__title {
+  display: none;
+}
+.section__title--hidden{
+  display: none;
+}
 .task-input,
 .task-label {
   width: 56%;
