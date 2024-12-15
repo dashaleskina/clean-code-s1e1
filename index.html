@@ -14,8 +14,8 @@
       <h1 class="main__title">ToDo App - Your private planner</h1>
       <section class="section__new-task">
         <h2 class="section__title section__title--hidden">Add New Task</h2>
-        <label class="new-task-label" for="new-task">Add Item</label>
-        <div class="new-task-wrapper">
+        <label class="new-task__label" for="new-task">Add Item</label>
+        <div class="new-task__wrapper">
           <input id="new-task" class="task-input task-input--new" type="text">
           <button class="button">Add</button>
         </div>
@@ -23,18 +23,18 @@
       <section class="section__todo">
         <h2 class="section__title">Todo</h2>
         <ul id="incomplete-tasks" class="task-list">
-          <li class="task-list-item">
-            <input class="task-checkbox" type="checkbox">
-            <label class="task-label">Pay Bills</label>
+          <li class="task-list__item">
+            <input class="task-list__checkbox" type="checkbox">
+            <label class="task-list__label">Pay Bills</label>
             <input type="text" class="task-input">
             <button class="button button-edit">Edit</button>
             <button class="button button-delete">
               <img class="button-delete-image" src="./remove.svg" alt="delete arrow">
             </button>
           </li>
-          <li class="task-list-item--edit-mode task-list-item">
-            <input class="task-checkbox" type="checkbox">
-            <label class="task-label">Go Shopping</label>
+          <li class="task-list__item task-list__item--edit-mode">
+            <input class="task-list__checkbox" type="checkbox">
+            <label class="task-list__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-input">
             <button class="button button-edit">Save</button>
             <button class="button button-delete">
@@ -46,9 +46,9 @@
       <section class="section__completed">
         <h2 class="section__title">Completed</h2>
         <ul id="completed-tasks" class="task-list task-list--completed">
-          <li class="task-list-item">
-            <input class="task-checkbox" type="checkbox" checked>
-            <label class="task-label">See the Doctor</label>
+          <li class="task-list__item">
+            <input class="task-list__checkbox" type="checkbox" checked>
+            <label class="task-list__label">See the Doctor</label>
             <input type="text" class="task-input">
             <button class="button button-edit">Edit</button>
             <button class="button button-delete">
